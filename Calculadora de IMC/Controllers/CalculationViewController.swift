@@ -10,11 +10,17 @@ import UIKit
 
 class CalculationViewController: UIViewController {
 
+    @IBOutlet weak var heightSlider: UISlider!
+    @IBOutlet weak var heightLabel: UILabel!
+    
+    @IBOutlet weak var weightSlider: UISlider!
+    @IBOutlet weak var weightLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
 

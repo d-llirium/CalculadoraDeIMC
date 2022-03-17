@@ -117,6 +117,12 @@
                             <constraint firstAttribute="trailing" secondItem="DpU-Gs-T27" secondAttribute="trailing" id="wXv-E8-Ye0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heightLabel" destination="Xcz-1j-2c9" id="n4X-It-10U"/>
+                        <outlet property="heightSlider" destination="Pky-qY-oVp" id="G6C-fN-6Ge"/>
+                        <outlet property="weightLabel" destination="LTF-aL-8qu" id="Yu4-pw-xdd"/>
+                        <outlet property="weightSlider" destination="s2X-C5-Zcz" id="vH8-NE-HCt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
