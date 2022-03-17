@@ -42,7 +42,7 @@ class CalculationViewController: UIViewController {
     @IBAction func goToResult(
         _ sender: UIButton
     ) {
-        
+        let imc = IMC(height: Double(heightSlider.value), weight: Double(weightSlider.value))
     }
     
 }
