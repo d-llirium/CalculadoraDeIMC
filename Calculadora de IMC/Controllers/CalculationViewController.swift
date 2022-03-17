@@ -21,15 +21,27 @@ class CalculationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func heightValueChanged(_ sender: UISlider) {
-        let formatted = String(format: "%.2fm", heightSlider.value)
+    @IBAction func heightValueChanged(
+        _ sender: UISlider
+    ) {
+        let formatted = String(
+            format: "%.2fm",
+            heightSlider.value
+        )
         heightLabel.text = formatted
     }
-    @IBAction func weightValueChanged(_ sender: UISlider) {
-        let formatted = String(format: "%.1fkg", weightSlider.value)
+    @IBAction func weightValueChanged(
+        _ sender: UISlider
+    ) {
+        let formatted = String(
+            format: "%.1fkg",
+            weightSlider.value
+        )
         weightLabel.text = formatted
     }
-    @IBAction func goToResult(_ sender: UIButton) {
+    @IBAction func goToResult(
+        _ sender: UIButton
+    ) {
         
     }
     
