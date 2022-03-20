@@ -8,10 +8,15 @@
 
 import Foundation
 
-struct IMC {
+class IMC {
     var height: Double
     var weight: Double
     var result: Double {
-        return weight/(height * height)
+        weight/(height * height)
     }
+    init( height: Float, weight: Float ) {
+        self.height = Double( height )
+        self.weight = Double( weight )
+    }
+    
 }

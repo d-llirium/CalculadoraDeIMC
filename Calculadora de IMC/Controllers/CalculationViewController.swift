@@ -16,34 +16,90 @@ class CalculationViewController: UIViewController {
     @IBOutlet weak var weightSlider: UISlider!
     @IBOutlet weak var weightLabel: UILabel!
     
+    var imc: IMC!
+    
+}
+
+//MARK: - View Life Cycle
+extension CalculationViewController {
+
+    override func viewWillAppear(
+        _ animated: Bool
+    ) {
+        imc = IMC(
+            height: heightSlider.value,
+            weight: weightSlider.value
+        )
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+}
+
+//MARK: - SLIDER ACTIONS
+extension CalculationViewController {
     
     @IBAction func heightValueChanged(
         _ sender: UISlider
     ) {
-        let formatted = String(
-            format: "%.2fm",
+        
+        imc.height = Double(
             heightSlider.value
         )
-        heightLabel.text = formatted
+        
+        let height = Double(
+            round(
+                100 * imc.height
+            ) / 100
+        )
+
+        heightLabel.text = "\(height)m"
+
     }
     @IBAction func weightValueChanged(
         _ sender: UISlider
     ) {
-        let formatted = String(
-            format: "%.1fkg",
+        
+        imc.weight = Double(
             weightSlider.value
         )
-        weightLabel.text = formatted
+        
+        let weight = Double(
+            round(
+                10 * imc.weight
+            ) / 10
+        )
+        weightLabel.text = "\(weight)kg"
     }
+}
+
+//MARK: - Data Handling with prepare for segue
+extension CalculationViewController {
+    
     @IBAction func goToResult(
         _ sender: UIButton
     ) {
-        let imc = IMC(height: Double(heightSlider.value), weight: Double(weightSlider.value))
+        performSegue(
+            withIdentifier: "showResult",
+            sender: self.imc
+        )
     }
     
+    override func prepare(
+        for segue: UIStoryboardSegue,
+        sender: Any?
+    ) {
+        if let resultVC = segue.destination as? ResultViewController,
+           let imc = sender as? IMC {
+            resultVC.imc = imc
+        }
+    }
+    @IBAction func unwind(_ seg: UIStoryboardSegue) {
+        heightSlider.value = 1.5
+        self.heightValueChanged( heightSlider )
+        weightSlider.value = 100
+        self.weightValueChanged( weightSlider )
+    }
 }
-
