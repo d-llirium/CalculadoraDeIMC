@@ -76,19 +76,15 @@ extension CalculationViewController {
             sender: self
         )
     }
-    
     override func prepare(
         for segue: UIStoryboardSegue,
         sender: Any?
     ) {
-        if let resultVC = segue.destination as? ResultViewController {
+        if let resultVC = segue
+            .destination as? ResultViewController {
             resultVC.imc = self.imc
+            resultVC.modalPresentationStyle = .fullScreen
         }
     }
-    @IBAction func unwind(_ seg: UIStoryboardSegue) {
-        heightSlider.value = 1.5
-        self.heightValueChanged( heightSlider )
-        weightSlider.value = 100
-        self.weightValueChanged( weightSlider )
-    }
+    @IBAction func unwind(_ seg: UIStoryboardSegue) { }
 }
