@@ -9,14 +9,9 @@
 import Foundation
 
 class IMC {
-    var height: Double
-    var weight: Double
+    var height: Double = 1.5
+    var weight: Double = 100
     var result: Double {
         weight/(height * height)
     }
-    init( height: Float, weight: Float ) {
-        self.height = Double( height )
-        self.weight = Double( weight )
-    }
-    
 }

@@ -16,8 +16,7 @@ class CalculationViewController: UIViewController {
     @IBOutlet weak var weightSlider: UISlider!
     @IBOutlet weak var weightLabel: UILabel!
     
-    var imc: IMC!
-    
+    var imc = IMC()
 }
 
 //MARK: - View Life Cycle
@@ -25,11 +24,6 @@ extension CalculationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        imc = IMC(
-            height: heightSlider.value,
-            weight: weightSlider.value
-        )
     }
 }
 
