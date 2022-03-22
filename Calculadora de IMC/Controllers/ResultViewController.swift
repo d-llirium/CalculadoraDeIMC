@@ -11,12 +11,10 @@ import UIKit
 class ResultViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
-    
     @IBOutlet weak var messageLabel: UILabel!
     
     var imc: IMC?
     
-
     @IBAction func goBack(
         _ sender: UIButton
     ) {
@@ -30,9 +28,8 @@ class ResultViewController: UIViewController {
 //MARK: - View Life Cycle
 extension ResultViewController {
     
-    override func viewWillAppear(
-        _ animated: Bool
-    ) {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         guard let imc = self.imc else {
             return
         }
@@ -53,9 +50,6 @@ extension ResultViewController {
         default:
             messageLabel.text = "Cuide da sua dieta!"
         }
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 }

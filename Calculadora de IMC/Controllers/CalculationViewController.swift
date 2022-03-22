@@ -23,18 +23,13 @@ class CalculationViewController: UIViewController {
 //MARK: - View Life Cycle
 extension CalculationViewController {
 
-    override func viewWillAppear(
-        _ animated: Bool
-    ) {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         imc = IMC(
             height: heightSlider.value,
             weight: weightSlider.value
         )
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 }
 
@@ -44,28 +39,23 @@ extension CalculationViewController {
     @IBAction func heightValueChanged(
         _ sender: UISlider
     ) {
-        
         imc.height = Double(
             heightSlider.value
         )
-        
         let height = Double(
             round(
                 100 * imc.height
             ) / 100
         )
-
         heightLabel.text = "\(height)m"
 
     }
     @IBAction func weightValueChanged(
         _ sender: UISlider
     ) {
-        
         imc.weight = Double(
             weightSlider.value
         )
-        
         let weight = Double(
             round(
                 10 * imc.weight
