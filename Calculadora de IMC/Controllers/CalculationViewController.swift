@@ -83,7 +83,7 @@ extension CalculationViewController {
     ) {
         performSegue(
             withIdentifier: "showResult",
-            sender: self.imc
+            sender: self
         )
     }
     
@@ -91,9 +91,8 @@ extension CalculationViewController {
         for segue: UIStoryboardSegue,
         sender: Any?
     ) {
-        if let resultVC = segue.destination as? ResultViewController,
-           let imc = sender as? IMC {
-            resultVC.imc = imc
+        if let resultVC = segue.destination as? ResultViewController {
+            resultVC.imc = self.imc
         }
     }
     @IBAction func unwind(_ seg: UIStoryboardSegue) {
