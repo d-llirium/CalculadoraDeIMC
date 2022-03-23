@@ -23,18 +23,6 @@ class ResultViewController: UIViewController {
             sender: self
         )
     }
-    override func prepare(
-        for segue: UIStoryboardSegue,
-        sender: Any?
-    ) {
-        if let calculationVC = segue
-            .destination as? CalculationViewController {
-            calculationVC.heightSlider.value = 1.5
-            calculationVC.weightSlider.value = 100
-            calculationVC.heightValueChanged( calculationVC.heightSlider )
-            calculationVC.weightValueChanged( calculationVC.weightSlider )
-        }
-    }
 }
 
 //MARK: - View Life Cycle

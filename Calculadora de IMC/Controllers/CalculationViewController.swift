@@ -24,6 +24,10 @@ extension CalculationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        heightSlider.value = 1.5
+        weightSlider.value = 100
+        heightValueChanged( heightSlider )
+        weightValueChanged( weightSlider )
     }
 }
 
