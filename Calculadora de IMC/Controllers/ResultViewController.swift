@@ -13,7 +13,7 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     
-    var imc: IMC?
+    var imc: CalculatorIMC?
     
     @IBAction func goBack(
         _ sender: UIButton
@@ -33,14 +33,10 @@ extension ResultViewController {
         guard let imc = self.imc else {
             return
         }
-        let result = Double(
-            round(
-                10 * imc.result
-            ) / 10
-        )
-        resultLabel.text = "\( result )"
+        resultLabel.text = "\( imc.getResult() )"
         
-        switch result {
+        switch imc.getResult()
+        {
         case 16...16.9:
             messageLabel.text = "Procure um medico"
         case 16.9...18.5:

@@ -16,7 +16,7 @@ class CalculationViewController: UIViewController {
     @IBOutlet weak var weightSlider: UISlider!
     @IBOutlet weak var weightLabel: UILabel!
     
-    var imc = IMC()
+    var imc = CalculatorIMC()
 }
 
 //MARK: - View Life Cycle
@@ -24,10 +24,6 @@ extension CalculationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        heightSlider.value = 1.5
-        weightSlider.value = 100
-        heightValueChanged( heightSlider )
-        weightValueChanged( weightSlider )
     }
 }
 
@@ -37,38 +33,24 @@ extension CalculationViewController {
     @IBAction func heightValueChanged(
         _ sender: UISlider
     ) {
-        imc.height = Double(
-            heightSlider.value
-        )
-        let height = Double(
-            round(
-                100 * imc.height
-            ) / 100
-        )
-        heightLabel.text = "\(height)m"
-
+        imc.setHeight( heightSlider.value )
+        heightLabel.text = "\( imc.getHeight() )m"
     }
     @IBAction func weightValueChanged(
         _ sender: UISlider
     ) {
-        imc.weight = Double(
-            weightSlider.value
-        )
-        let weight = Double(
-            round(
-                10 * imc.weight
-            ) / 10
-        )
-        weightLabel.text = "\(weight)kg"
+        imc.setWeight( weightSlider.value )
+        weightLabel.text = "\( imc.getWeight() )kg"
     }
 }
 
-//MARK: - Data Handling with prepare for segue
+//MARK: - NAVIGATION
 extension CalculationViewController {
     
     @IBAction func goToResult(
         _ sender: UIButton
     ) { }
+    
     override func prepare(
         for segue: UIStoryboardSegue,
         sender: Any?
@@ -79,7 +61,13 @@ extension CalculationViewController {
             resultVC.modalPresentationStyle = .fullScreen
         }
     }
+    
     @IBAction func unwind(
         _ seg: UIStoryboardSegue
-    ) { }
+    ) {
+        heightSlider.value = 1.5
+        weightSlider.value = 100
+        heightValueChanged( heightSlider )
+        weightValueChanged( weightSlider )
+    }
 }
