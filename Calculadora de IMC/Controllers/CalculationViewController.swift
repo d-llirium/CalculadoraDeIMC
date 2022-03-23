@@ -68,12 +68,7 @@ extension CalculationViewController {
     
     @IBAction func goToResult(
         _ sender: UIButton
-    ) {
-        performSegue(
-            withIdentifier: "showResult",
-            sender: self
-        )
-    }
+    ) { }
     override func prepare(
         for segue: UIStoryboardSegue,
         sender: Any?
@@ -84,5 +79,7 @@ extension CalculationViewController {
             resultVC.modalPresentationStyle = .fullScreen
         }
     }
-    @IBAction func unwind(_ seg: UIStoryboardSegue) { }
+    @IBAction func unwind(
+        _ seg: UIStoryboardSegue
+    ) { }
 }
