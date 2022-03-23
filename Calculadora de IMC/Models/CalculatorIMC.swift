@@ -54,7 +54,7 @@ class CalculatorIMC {
     func getResult()
     -> Double {
         let rounded = Double(
-            round( 100 * self.result ) / 100
+            round( 10 * self.result ) / 10
         )
         return rounded
     }

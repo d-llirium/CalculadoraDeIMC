@@ -35,16 +35,9 @@ extension ResultViewController {
         }
         resultLabel.text = "\( imc.getResult() )"
         
-        switch imc.getResult()
-        {
-        case 16...16.9:
-            messageLabel.text = "Procure um medico"
-        case 16.9...18.5:
-            messageLabel.text = "Coma mais!"
-        case 18.6...24.9:
-            messageLabel.text = "Continue assim!"
-        default:
-            messageLabel.text = "Cuide da sua dieta!"
-        }
+        let validation = Validation()
+        messageLabel.text = validation.showMessage(
+            for: imc.getResult()
+        )
     }
 }

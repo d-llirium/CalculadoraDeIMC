@@ -15,6 +15,7 @@
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
 		CE387D8127EBA38600732793 /* Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8027EBA38600732793 /* Convertion.swift */; };
+		CE387D8327EBB46C00732793 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8227EBB46C00732793 /* Validation.swift */; };
 		CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */; };
 		CE8F2CCD27E3D80A00963DC3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F2CCC27E3D80A00963DC3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE387D8027EBA38600732793 /* Convertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertion.swift; sourceTree = "<group>"; };
+		CE387D8227EBB46C00732793 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorIMC.swift; sourceTree = "<group>"; };
 		CE8F2CCC27E3D80A00963DC3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 			children = (
 				CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */,
 				CE387D8027EBA38600732793 /* Convertion.swift */,
+				CE387D8227EBB46C00732793 /* Validation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
 				CE387D8127EBA38600732793 /* Convertion.swift in Sources */,
 				CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */,
+				CE387D8327EBB46C00732793 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
