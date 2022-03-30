@@ -18,8 +18,8 @@ class CalculatorIMC {
     let convertion: Convertion
     
     init() {
-        self.height = 1.5
-        self.weight = 100
+        self.height = 1.4
+        self.weight = 200
         self.convertion = Convertion()
     }
     
