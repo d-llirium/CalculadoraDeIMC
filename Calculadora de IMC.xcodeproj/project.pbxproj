@@ -14,6 +14,18 @@
 		AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F82230D61840065EFD9 /* Assets.xcassets */; };
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
+		CE1D9CD22821B71100C710BD /* CalculaIMCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */; };
+		CE1D9CD32821B71100C710BD /* CalculaIMCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */; };
+		CE1D9CD42821B71100C710BD /* CalculaIMCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */; };
+		CE1D9CD52821B71100C710BD /* CalculaIMCModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */; };
+		CE1D9CD62821B71100C710BD /* CalculaIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */; };
+		CE1D9CD72821B71100C710BD /* CalculaIMCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */; };
+		CE1D9CDF2821B78600C710BD /* MostraResultadoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */; };
+		CE1D9CE02821B78600C710BD /* MostraResultadoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */; };
+		CE1D9CE12821B78600C710BD /* MostraResultadoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */; };
+		CE1D9CE22821B78600C710BD /* MostraResultadoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */; };
+		CE1D9CE32821B78600C710BD /* MostraResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */; };
+		CE1D9CE42821B78600C710BD /* MostraResultadoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */; };
 		CE387D8127EBA38600732793 /* Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8027EBA38600732793 /* Convertion.swift */; };
 		CE387D8327EBB46C00732793 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8227EBB46C00732793 /* Validation.swift */; };
 		CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */; };
@@ -30,6 +42,18 @@
 		AD0B9F85230D61840065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCPresenter.swift; sourceTree = "<group>"; };
+		CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCWorker.swift; sourceTree = "<group>"; };
+		CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCRouter.swift; sourceTree = "<group>"; };
+		CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCModels.swift; sourceTree = "<group>"; };
+		CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCViewController.swift; sourceTree = "<group>"; };
+		CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCInteractor.swift; sourceTree = "<group>"; };
+		CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoPresenter.swift; sourceTree = "<group>"; };
+		CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoWorker.swift; sourceTree = "<group>"; };
+		CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoRouter.swift; sourceTree = "<group>"; };
+		CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoModels.swift; sourceTree = "<group>"; };
+		CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoViewController.swift; sourceTree = "<group>"; };
+		CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoInteractor.swift; sourceTree = "<group>"; };
 		CE387D8027EBA38600732793 /* Convertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertion.swift; sourceTree = "<group>"; };
 		CE387D8227EBB46C00732793 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorIMC.swift; sourceTree = "<group>"; };
@@ -67,6 +91,7 @@
 		AD0B9F78230D61800065EFD9 /* Calculadora de IMC */ = {
 			isa = PBXGroup;
 			children = (
+				CE37590B2821B1680030B086 /* Scenes */,
 				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
 				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
 				AD0B9F8E230D63E10065EFD9 /* Views */,
@@ -94,6 +119,41 @@
 				AD0B9F7F230D61800065EFD9 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE1D9CD82821B73000C710BD /* MostraResultado */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */,
+				CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */,
+				CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */,
+				CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */,
+				CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */,
+				CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */,
+			);
+			path = MostraResultado;
+			sourceTree = "<group>";
+		};
+		CE37590B2821B1680030B086 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D9CD82821B73000C710BD /* MostraResultado */,
+				CE37590C2821B18D0030B086 /* CalculaIMC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CE37590C2821B18D0030B086 /* CalculaIMC */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */,
+				CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */,
+				CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */,
+				CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */,
+				CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */,
+				CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */,
+			);
+			path = CalculaIMC;
 			sourceTree = "<group>";
 		};
 		CE8F2CC927E3D52C00963DC3 /* Models */ = {
@@ -178,11 +238,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1D9CE12821B78600C710BD /* MostraResultadoRouter.swift in Sources */,
+				CE1D9CE22821B78600C710BD /* MostraResultadoModels.swift in Sources */,
+				CE1D9CDF2821B78600C710BD /* MostraResultadoPresenter.swift in Sources */,
 				CE8F2CCD27E3D80A00963DC3 /* ResultViewController.swift in Sources */,
+				CE1D9CE32821B78600C710BD /* MostraResultadoViewController.swift in Sources */,
 				AD0B9F7E230D61800065EFD9 /* CalculationViewController.swift in Sources */,
+				CE1D9CD42821B71100C710BD /* CalculaIMCRouter.swift in Sources */,
+				CE1D9CE02821B78600C710BD /* MostraResultadoWorker.swift in Sources */,
+				CE1D9CD72821B71100C710BD /* CalculaIMCInteractor.swift in Sources */,
+				CE1D9CD22821B71100C710BD /* CalculaIMCPresenter.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
+				CE1D9CD62821B71100C710BD /* CalculaIMCViewController.swift in Sources */,
+				CE1D9CD52821B71100C710BD /* CalculaIMCModels.swift in Sources */,
 				CE387D8127EBA38600732793 /* Convertion.swift in Sources */,
+				CE1D9CD32821B71100C710BD /* CalculaIMCWorker.swift in Sources */,
+				CE1D9CE42821B78600C710BD /* MostraResultadoInteractor.swift in Sources */,
 				CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */,
 				CE387D8327EBB46C00732793 /* Validation.swift in Sources */,
 			);
