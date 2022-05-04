@@ -9,55 +9,49 @@
 /* Begin PBXBuildFile section */
 		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
 		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
-		AD0B9F7E230D61800065EFD9 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* CalculationViewController.swift */; };
 		AD0B9F81230D61800065EFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F7F230D61800065EFD9 /* Main.storyboard */; };
 		AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F82230D61840065EFD9 /* Assets.xcassets */; };
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
-		CE1D9CD22821B71100C710BD /* CalculaIMCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */; };
-		CE1D9CD32821B71100C710BD /* CalculaIMCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */; };
-		CE1D9CD42821B71100C710BD /* CalculaIMCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */; };
-		CE1D9CD52821B71100C710BD /* CalculaIMCModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */; };
-		CE1D9CD62821B71100C710BD /* CalculaIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */; };
-		CE1D9CD72821B71100C710BD /* CalculaIMCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */; };
-		CE1D9CDF2821B78600C710BD /* MostraResultadoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */; };
-		CE1D9CE02821B78600C710BD /* MostraResultadoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */; };
-		CE1D9CE12821B78600C710BD /* MostraResultadoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */; };
-		CE1D9CE22821B78600C710BD /* MostraResultadoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */; };
-		CE1D9CE32821B78600C710BD /* MostraResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */; };
-		CE1D9CE42821B78600C710BD /* MostraResultadoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */; };
-		CE387D8127EBA38600732793 /* Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8027EBA38600732793 /* Convertion.swift */; };
+		CE1D9CD22821B71100C710BD /* CreateIMCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCC2821B71100C710BD /* CreateIMCPresenter.swift */; };
+		CE1D9CD32821B71100C710BD /* CreateIMCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCD2821B71100C710BD /* CreateIMCWorker.swift */; };
+		CE1D9CD42821B71100C710BD /* CreateIMCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCE2821B71100C710BD /* CreateIMCRouter.swift */; };
+		CE1D9CD52821B71100C710BD /* CriarIMCModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CCF2821B71100C710BD /* CriarIMCModels.swift */; };
+		CE1D9CD62821B71100C710BD /* CreateIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD02821B71100C710BD /* CreateIMCViewController.swift */; };
+		CE1D9CD72821B71100C710BD /* CreateIMCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CD12821B71100C710BD /* CreateIMCInteractor.swift */; };
+		CE1D9CE72822B88A00C710BD /* IMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CE62822B88A00C710BD /* IMC.swift */; };
+		CE1D9CEE2822C0A100C710BD /* ShowIMCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CE82822C0A100C710BD /* ShowIMCPresenter.swift */; };
+		CE1D9CEF2822C0A100C710BD /* ShowIMCWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CE92822C0A100C710BD /* ShowIMCWorker.swift */; };
+		CE1D9CF02822C0A100C710BD /* ShowIMCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CEA2822C0A100C710BD /* ShowIMCRouter.swift */; };
+		CE1D9CF12822C0A100C710BD /* ShowIMCModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CEB2822C0A100C710BD /* ShowIMCModels.swift */; };
+		CE1D9CF22822C0A100C710BD /* ShowIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CEC2822C0A100C710BD /* ShowIMCViewController.swift */; };
+		CE1D9CF32822C0A100C710BD /* ShowIMCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D9CED2822C0A100C710BD /* ShowIMCInteractor.swift */; };
 		CE387D8327EBB46C00732793 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE387D8227EBB46C00732793 /* Validation.swift */; };
-		CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */; };
-		CE8F2CCD27E3D80A00963DC3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F2CCC27E3D80A00963DC3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD0B9F76230D61800065EFD9 /* Calculadora de IMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculadora de IMC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD0B9F7D230D61800065EFD9 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		AD0B9F80230D61800065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD0B9F82230D61840065EFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0B9F85230D61840065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCPresenter.swift; sourceTree = "<group>"; };
-		CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCWorker.swift; sourceTree = "<group>"; };
-		CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCRouter.swift; sourceTree = "<group>"; };
-		CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCModels.swift; sourceTree = "<group>"; };
-		CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCViewController.swift; sourceTree = "<group>"; };
-		CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaIMCInteractor.swift; sourceTree = "<group>"; };
-		CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoPresenter.swift; sourceTree = "<group>"; };
-		CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoWorker.swift; sourceTree = "<group>"; };
-		CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoRouter.swift; sourceTree = "<group>"; };
-		CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoModels.swift; sourceTree = "<group>"; };
-		CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoViewController.swift; sourceTree = "<group>"; };
-		CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraResultadoInteractor.swift; sourceTree = "<group>"; };
-		CE387D8027EBA38600732793 /* Convertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertion.swift; sourceTree = "<group>"; };
+		CE1D9CCC2821B71100C710BD /* CreateIMCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIMCPresenter.swift; sourceTree = "<group>"; };
+		CE1D9CCD2821B71100C710BD /* CreateIMCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIMCWorker.swift; sourceTree = "<group>"; };
+		CE1D9CCE2821B71100C710BD /* CreateIMCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIMCRouter.swift; sourceTree = "<group>"; };
+		CE1D9CCF2821B71100C710BD /* CriarIMCModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarIMCModels.swift; sourceTree = "<group>"; };
+		CE1D9CD02821B71100C710BD /* CreateIMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIMCViewController.swift; sourceTree = "<group>"; };
+		CE1D9CD12821B71100C710BD /* CreateIMCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIMCInteractor.swift; sourceTree = "<group>"; };
+		CE1D9CE62822B88A00C710BD /* IMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC.swift; sourceTree = "<group>"; };
+		CE1D9CE82822C0A100C710BD /* ShowIMCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCPresenter.swift; sourceTree = "<group>"; };
+		CE1D9CE92822C0A100C710BD /* ShowIMCWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCWorker.swift; sourceTree = "<group>"; };
+		CE1D9CEA2822C0A100C710BD /* ShowIMCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCRouter.swift; sourceTree = "<group>"; };
+		CE1D9CEB2822C0A100C710BD /* ShowIMCModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCModels.swift; sourceTree = "<group>"; };
+		CE1D9CEC2822C0A100C710BD /* ShowIMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCViewController.swift; sourceTree = "<group>"; };
+		CE1D9CED2822C0A100C710BD /* ShowIMCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIMCInteractor.swift; sourceTree = "<group>"; };
 		CE387D8227EBB46C00732793 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorIMC.swift; sourceTree = "<group>"; };
-		CE8F2CCC27E3D80A00963DC3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,26 +85,17 @@
 		AD0B9F78230D61800065EFD9 /* Calculadora de IMC */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D9CE52822B87400C710BD /* Model */,
 				CE37590B2821B1680030B086 /* Scenes */,
 				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
 				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
 				AD0B9F8E230D63E10065EFD9 /* Views */,
 				CE8F2CC927E3D52C00963DC3 /* Models */,
-				AD0B9F8D230D63D70065EFD9 /* Controllers */,
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
 				AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9F87230D61840065EFD9 /* Info.plist */,
 			);
 			path = "Calculadora de IMC";
-			sourceTree = "<group>";
-		};
-		AD0B9F8D230D63D70065EFD9 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AD0B9F7D230D61800065EFD9 /* CalculationViewController.swift */,
-				CE8F2CCC27E3D80A00963DC3 /* ResultViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		AD0B9F8E230D63E10065EFD9 /* Views */ = {
@@ -121,46 +106,52 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		CE1D9CD82821B73000C710BD /* MostraResultado */ = {
+		CE1D9CD82821B73000C710BD /* ShowIMC */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D9CD92821B78600C710BD /* MostraResultadoPresenter.swift */,
-				CE1D9CDA2821B78600C710BD /* MostraResultadoWorker.swift */,
-				CE1D9CDB2821B78600C710BD /* MostraResultadoRouter.swift */,
-				CE1D9CDC2821B78600C710BD /* MostraResultadoModels.swift */,
-				CE1D9CDD2821B78600C710BD /* MostraResultadoViewController.swift */,
-				CE1D9CDE2821B78600C710BD /* MostraResultadoInteractor.swift */,
+				CE1D9CE82822C0A100C710BD /* ShowIMCPresenter.swift */,
+				CE1D9CE92822C0A100C710BD /* ShowIMCWorker.swift */,
+				CE1D9CEA2822C0A100C710BD /* ShowIMCRouter.swift */,
+				CE1D9CEB2822C0A100C710BD /* ShowIMCModels.swift */,
+				CE1D9CEC2822C0A100C710BD /* ShowIMCViewController.swift */,
+				CE1D9CED2822C0A100C710BD /* ShowIMCInteractor.swift */,
 			);
-			path = MostraResultado;
+			path = ShowIMC;
+			sourceTree = "<group>";
+		};
+		CE1D9CE52822B87400C710BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D9CE62822B88A00C710BD /* IMC.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CE37590B2821B1680030B086 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D9CD82821B73000C710BD /* MostraResultado */,
-				CE37590C2821B18D0030B086 /* CalculaIMC */,
+				CE1D9CD82821B73000C710BD /* ShowIMC */,
+				CE37590C2821B18D0030B086 /* CreateIMC */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		CE37590C2821B18D0030B086 /* CalculaIMC */ = {
+		CE37590C2821B18D0030B086 /* CreateIMC */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D9CCC2821B71100C710BD /* CalculaIMCPresenter.swift */,
-				CE1D9CCD2821B71100C710BD /* CalculaIMCWorker.swift */,
-				CE1D9CCE2821B71100C710BD /* CalculaIMCRouter.swift */,
-				CE1D9CCF2821B71100C710BD /* CalculaIMCModels.swift */,
-				CE1D9CD02821B71100C710BD /* CalculaIMCViewController.swift */,
-				CE1D9CD12821B71100C710BD /* CalculaIMCInteractor.swift */,
+				CE1D9CCC2821B71100C710BD /* CreateIMCPresenter.swift */,
+				CE1D9CCD2821B71100C710BD /* CreateIMCWorker.swift */,
+				CE1D9CCE2821B71100C710BD /* CreateIMCRouter.swift */,
+				CE1D9CCF2821B71100C710BD /* CriarIMCModels.swift */,
+				CE1D9CD02821B71100C710BD /* CreateIMCViewController.swift */,
+				CE1D9CD12821B71100C710BD /* CreateIMCInteractor.swift */,
 			);
-			path = CalculaIMC;
+			path = CreateIMC;
 			sourceTree = "<group>";
 		};
 		CE8F2CC927E3D52C00963DC3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CE8F2CCA27E3D54E00963DC3 /* CalculatorIMC.swift */,
-				CE387D8027EBA38600732793 /* Convertion.swift */,
 				CE387D8227EBB46C00732793 /* Validation.swift */,
 			);
 			path = Models;
@@ -193,7 +184,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
 					AD0B9F75230D61800065EFD9 = {
@@ -238,25 +229,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1D9CE12821B78600C710BD /* MostraResultadoRouter.swift in Sources */,
-				CE1D9CE22821B78600C710BD /* MostraResultadoModels.swift in Sources */,
-				CE1D9CDF2821B78600C710BD /* MostraResultadoPresenter.swift in Sources */,
-				CE8F2CCD27E3D80A00963DC3 /* ResultViewController.swift in Sources */,
-				CE1D9CE32821B78600C710BD /* MostraResultadoViewController.swift in Sources */,
-				AD0B9F7E230D61800065EFD9 /* CalculationViewController.swift in Sources */,
-				CE1D9CD42821B71100C710BD /* CalculaIMCRouter.swift in Sources */,
-				CE1D9CE02821B78600C710BD /* MostraResultadoWorker.swift in Sources */,
-				CE1D9CD72821B71100C710BD /* CalculaIMCInteractor.swift in Sources */,
-				CE1D9CD22821B71100C710BD /* CalculaIMCPresenter.swift in Sources */,
+				CE1D9CF22822C0A100C710BD /* ShowIMCViewController.swift in Sources */,
+				CE1D9CEF2822C0A100C710BD /* ShowIMCWorker.swift in Sources */,
+				CE1D9CD42821B71100C710BD /* CreateIMCRouter.swift in Sources */,
+				CE1D9CD72821B71100C710BD /* CreateIMCInteractor.swift in Sources */,
+				CE1D9CD22821B71100C710BD /* CreateIMCPresenter.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
-				CE1D9CD62821B71100C710BD /* CalculaIMCViewController.swift in Sources */,
-				CE1D9CD52821B71100C710BD /* CalculaIMCModels.swift in Sources */,
-				CE387D8127EBA38600732793 /* Convertion.swift in Sources */,
-				CE1D9CD32821B71100C710BD /* CalculaIMCWorker.swift in Sources */,
-				CE1D9CE42821B78600C710BD /* MostraResultadoInteractor.swift in Sources */,
-				CE8F2CCB27E3D54E00963DC3 /* CalculatorIMC.swift in Sources */,
+				CE1D9CD62821B71100C710BD /* CreateIMCViewController.swift in Sources */,
+				CE1D9CE72822B88A00C710BD /* IMC.swift in Sources */,
+				CE1D9CEE2822C0A100C710BD /* ShowIMCPresenter.swift in Sources */,
+				CE1D9CD52821B71100C710BD /* CriarIMCModels.swift in Sources */,
+				CE1D9CF02822C0A100C710BD /* ShowIMCRouter.swift in Sources */,
+				CE1D9CD32821B71100C710BD /* CreateIMCWorker.swift in Sources */,
+				CE1D9CF12822C0A100C710BD /* ShowIMCModels.swift in Sources */,
 				CE387D8327EBB46C00732793 /* Validation.swift in Sources */,
+				CE1D9CF32822C0A100C710BD /* ShowIMCInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +296,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -368,6 +357,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

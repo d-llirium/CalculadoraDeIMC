@@ -12,9 +12,20 @@
 
 import UIKit
 
-class CalculaIMCWorker
+class CreateIMCWorker
 {
-  func doSomeWork()
-  {
-  }
+    func floatToDouble(
+        _ floatValue: Float,
+        _ digits: Double
+    ) -> Double
+    {
+        let convertedValue = Double(
+            floatValue
+        )
+        let rounded = Double(
+            round( digits * convertedValue ) / digits
+        )
+        
+        return rounded
+    }
 }

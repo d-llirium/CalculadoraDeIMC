@@ -1,5 +1,5 @@
 //
-//  MostraResultadoRouter.swift
+//  CalculaIMCRouter.swift
 //  Calculadora de IMC
 //
 //  Created by user on 03/05/22.
@@ -12,20 +12,20 @@
 
 import UIKit
 
-@objc protocol MostraResultadoRoutingLogic
+@objc protocol CreateIMCRoutingLogic
 {
   //func routeToSomewhere(segue: UIStoryboardSegue?)
 }
 
-protocol MostraResultadoDataPassing
+protocol CreateIMCDataPassing
 {
-  var dataStore: MostraResultadoDataStore? { get }
+  var dataStore: CreateIMCDataStore? { get }
 }
 
-class MostraResultadoRouter: NSObject, MostraResultadoRoutingLogic, MostraResultadoDataPassing
+class CreateIMCRouter: NSObject, CreateIMCRoutingLogic, CreateIMCDataPassing
 {
-  weak var viewController: MostraResultadoViewController?
-  var dataStore: MostraResultadoDataStore?
+  weak var viewController: CreateIMCViewController?
+  var dataStore: CreateIMCDataStore?
   
   // MARK: Routing
   
@@ -46,14 +46,14 @@ class MostraResultadoRouter: NSObject, MostraResultadoRoutingLogic, MostraResult
 
   // MARK: Navigation
   
-  //func navigateToSomewhere(source: MostraResultadoViewController, destination: SomewhereViewController)
+  //func navigateToSomewhere(source: CalculaIMCViewController, destination: SomewhereViewController)
   //{
   //  source.show(destination, sender: nil)
   //}
   
   // MARK: Passing data
   
-  //func passDataToSomewhere(source: MostraResultadoDataStore, destination: inout SomewhereDataStore)
+  //func passDataToSomewhere(source: CalculaIMCDataStore, destination: inout SomewhereDataStore)
   //{
   //  destination.name = source.name
   //}
